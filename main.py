@@ -1,13 +1,10 @@
 import os
 import streamlit as st
 import pandas as pd
-import numpy as np
 import sweetviz as sv
-import tempfile
 import chardet
 import seaborn as sns
 import matplotlib.pyplot as plt
-from sklearn.model_selection import train_test_split
 import google.generativeai as genai
 
 # ========== CONFIGURATION ==========
