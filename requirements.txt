@@ -6,4 +6,4 @@ seaborn
 matplotlib
 openpyxl
 google-generativeai
-numpy
+numpy==1.23.5
