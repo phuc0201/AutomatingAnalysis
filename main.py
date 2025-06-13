@@ -78,7 +78,7 @@ def analyze_data_ai(df):
 
 # ========== MAIN APP UI ==========
 
-st.title("🚀 Auto Analyzer v5 Enterprise Full App")
+st.title("🚀 Tự động phân tích dữ liệu và viết báo cáo")
 
 # Sidebar Upload
 with st.sidebar:
