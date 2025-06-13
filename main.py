@@ -121,7 +121,7 @@ if uploaded_file is not None:
             st.write("🔵 Heatmap - Correlation")
             corr = df[numeric_cols].corr()
             fig, ax = plt.subplots(figsize=(10,8))
-            sns.heatmap(corr, annot=True, cmap='coolwarm', ax=ax)
+            sns.heatmap(corr, annot=False, cmap='coolwarm', ax=ax)
             st.pyplot(fig)
 
         if len(numeric_cols) >= 1:
