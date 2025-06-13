@@ -9,10 +9,10 @@ import google.generativeai as genai
 
 # ========== CONFIGURATION ==========
 # Set Gemini API key
-genai.configure(api_key="AIzaSyBcdUlv3ULcSlbGU0HoK0HGCaRXj72WoPs") 
+genai.configure(api_key="AIzaSyCD8iTeXxkOhivhUnd4wkErFasf_vAyWQY") 
 
 # Streamlit page config
-st.set_page_config(page_title="Auto Analyzer v5 Enterprise", layout="wide")
+st.set_page_config(page_title="Tự động phân tích dữ liệu và viết báo cáo", layout="wide")
 
 # ========== FILE LOADER MODULE ==========
 
@@ -69,7 +69,7 @@ def analyze_data_ai(df):
     - Viết bằng tiếng Việt phân tích chuyên nghiệp như data science.
     - Nếu nội dung là về thương mại thì hãy đưa ra chiến lược marketing
     """
-    model = genai.GenerativeModel("gemini-2.0-flash")
+    model = genai.GenerativeModel("gemini-1.5-pro")
     response = model.generate_content(prompt)
     return response.text
 
