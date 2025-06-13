@@ -1,12 +1,11 @@
+streamlit
 pandas
 numpy==1.23.5
-scikit-learn 
-matplotlib 
-seaborn 
-streamlit 
-lazypredict 
+scikit-learn==1.1.3
+lazypredict==0.2.21
 sweetviz
 chardet
-sklearn
+seaborn
+matplotlib
 openpyxl
 google-generativeai
