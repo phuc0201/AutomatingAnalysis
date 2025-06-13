@@ -1,1 +1,51 @@
-*venv
+# Ignore thư mục ảo môi trường local
+venv/
+.env/
+*.env
+
+# Ignore file report tạm
+reports/
+# Hoặc nếu bạn muốn giữ lại folder nhưng không giữ file bên trong:
+# reports/*
+# !reports/.gitkeep
+
+# Ignore các file tạm thời python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg
+*.eggs
+*.log
+*.pot
+*.mo
+
+# Ignore VSCode hoặc các IDE khác
+.vscode/
+.idea/
+
+# Ignore file tạm hệ điều hành
+.DS_Store
+Thumbs.db
+
+# Ignore jupyter nếu có
+.ipynb_checkpoints/
+
+# Ignore build dist nếu có build package sau này
+build/
+dist/
+*.egg-info/
+
+# Ignore bất kỳ file test cache
+.pytest_cache/
+coverage/
+htmlcov/
+.cache/
+
+# Ignore Docker (nếu về sau có dùng)
+docker-compose.override.yml
+
+# Ignore Streamlit Cloud specific logs (nếu có)
+.streamlit/secrets.toml
